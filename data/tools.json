@@ -1,0 +1,60 @@
+{
+  "tools": [
+    {
+      "id": "my-computer-by-manus-ai",
+      "name": "My Computer by Manus AI",
+      "tagline": "桌面级 AI 自动化助手",
+      "slug": "my-computer-by-manus-ai",
+      "tags": ["AI", "自动化", "效率工具", "桌面应用", "Mac"],
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "source": "Product Hunt",
+      "votes": null,
+      "file": "content/tools/my-computer-by-manus-ai.md"
+    },
+    {
+      "id": "lightning-rod",
+      "name": "Lightning Rod",
+      "tagline": "实时世界数据转训练集工具",
+      "slug": "lightning-rod",
+      "tags": ["AI", "数据集", "机器学习", "开发者工具", "数据处理"],
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "source": "Product Hunt",
+      "votes": null,
+      "file": "content/tools/lightning-rod.md"
+    },
+    {
+      "id": "kira-4",
+      "name": "Kira 4.0",
+      "tagline": "将朋友转化为可分享内容",
+      "slug": "kira-4",
+      "tags": ["AI", "内容创作", "社交媒体", "视频剪辑", "自动化"],
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "source": "Product Hunt",
+      "votes": null,
+      "file": "content/tools/kira-4.md"
+    },
+    {
+      "id": "codex-subagents",
+      "name": "Codex Subagents",
+      "tagline": "并行自定义 AI 智能体",
+      "slug": "codex-subagents",
+      "tags": ["AI", "开发者工具", "智能体", "自动化", "编程"],
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "source": "Product Hunt",
+      "votes": null,
+      "file": "content/tools/codex-subagents.md"
+    },
+    {
+      "id": "mtarsier",
+      "name": "mTarsier",
+      "tagline": "开源 MCP 服务器管理平台",
+      "slug": "mtarsier",
+      "tags": ["AI", "开源", "MCP", "开发者工具", "服务器管理"],
+      "published_at": "2026-04-28T00:00:00.000Z",
+      "source": "Product Hunt",
+      "votes": null,
+      "file": "content/tools/mtarsier.md"
+    }
+  ],
+  "last_updated": "2026-04-28T15:30:00.000Z"
+}
