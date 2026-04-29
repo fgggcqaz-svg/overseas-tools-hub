@@ -213,7 +213,7 @@ export default {
     }
     
     const openTool = (tool) => {
-      window.location.href = `/tools/${tool.slug}.html`
+      window.location.href = `/tools/${tool.slug}`
     }
     
     onMounted(() => {

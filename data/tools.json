@@ -9,7 +9,8 @@
       "published_at": "2026-04-28T00:00:00.000Z",
       "source": "Product Hunt",
       "votes": null,
-      "file": "content/tools/my-computer-by-manus-ai.md"
+      "file": "content/tools/my-computer-by-manus-ai.md",
+      "website_url": "https://manus.ai"
     },
     {
       "id": "lightning-rod",
@@ -20,7 +21,8 @@
       "published_at": "2026-04-28T00:00:00.000Z",
       "source": "Product Hunt",
       "votes": null,
-      "file": "content/tools/lightning-rod.md"
+      "file": "content/tools/lightning-rod.md",
+      "website_url": "https://lightningrod.ai"
     },
     {
       "id": "kira-4",
@@ -31,7 +33,8 @@
       "published_at": "2026-04-28T00:00:00.000Z",
       "source": "Product Hunt",
       "votes": null,
-      "file": "content/tools/kira-4.md"
+      "file": "content/tools/kira-4.md",
+      "website_url": "https://kira.ai"
     },
     {
       "id": "codex-subagents",
@@ -42,7 +45,8 @@
       "published_at": "2026-04-28T00:00:00.000Z",
       "source": "Product Hunt",
       "votes": null,
-      "file": "content/tools/codex-subagents.md"
+      "file": "content/tools/codex-subagents.md",
+      "website_url": "https://codex.ai"
     },
     {
       "id": "mtarsier",
@@ -53,8 +57,9 @@
       "published_at": "2026-04-28T00:00:00.000Z",
       "source": "Product Hunt",
       "votes": null,
-      "file": "content/tools/mtarsier.md"
+      "file": "content/tools/mtarsier.md",
+      "website_url": "https://github.com/mtarsier"
     }
   ],
-  "last_updated": "2026-04-28T15:30:00.000Z"
+  "last_updated": "2026-04-29T17:00:00.000Z"
 }

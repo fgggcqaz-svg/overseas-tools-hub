@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 // Paths
 const contentDir = path.join(__dirname, '../../content/tools');
-const outputDir = path.join(__dirname, '../tools');
+const outputDir = path.join(__dirname, '../dist/tools');  // Output to Vite build directory
 const templatePath = path.join(__dirname, '../public/tool-template.html');
 
 // Ensure output directory exists
