@@ -51,6 +51,7 @@
         <div class="prose max-w-none" v-html="renderedContent">
         </div>
         
+        <!-- Visit Website Button -->
         <div class="mt-8 pt-8 border-t border-gray-200 flex items-center justify-between">
           <router-link to="/" class="text-blue-600 hover:text-blue-700 font-medium">
             ← 返回工具列表
@@ -66,7 +67,7 @@
             </svg>
           </a>
         </div>
-        
+
         <!-- 支持作者 -->
         <div class="mt-6 pt-6 border-t border-gray-200">
           <h3 class="text-lg font-bold text-gray-900 mb-2">支持作者</h3>
@@ -74,14 +75,11 @@
             如果您觉得这个AI工具推荐对您有帮助，欢迎支持作者，支持本站持续运营！
           </p>
           <div class="bg-gray-50 rounded-lg p-6 text-center">
-            <img 
-              src="/alipay-qr.png" 
-              alt="Alipay QR Code" 
-              class="mx-auto mb-4"
-              style="max-width: 200px;"
-            />
+            <div class="mx-auto mb-4 bg-white border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center" style="width: 200px; height: 200px;">
+              <span class="text-gray-400 text-sm">[请在此处上传您的 AlipayHK 二维码截图]</span>
+            </div>
             <p class="text-sm text-gray-600 mb-2">支持 AlipayHK / 转数快 FPS</p>
-            <p class="text-sm text-gray-700 font-medium">FPS ID: [在此输入你的FPS ID]</p>
+            <p class="text-sm text-gray-700 font-medium">FPS ID: [在此输入你的 FPS ID]</p>
           </div>
         </div>
       </article>
@@ -107,7 +105,6 @@
 <script>
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { marked } from 'marked' // You'll need to install this
 
 export default {
   name: 'ToolDetail',
@@ -147,7 +144,7 @@ export default {
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
         .replace(/\n- (.+)/g, '<li>$1</li>')
         .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
-        .replace(/\n\n/g, '<br><br>')
+        .replace(/\n\n/g, '<br/><br/>')
     }
 
     const formatDate = (dateString) => {
