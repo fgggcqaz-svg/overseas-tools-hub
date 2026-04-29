@@ -1,5 +1,25 @@
 import { createApp } from 'vue'
+import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
-import './style.css'
+import ToolDetail from './views/ToolDetail.vue'
 
-createApp(App).mount('#app')
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    {
+      path: '/',
+      name: 'Home',
+      component: App
+    },
+    {
+      path: '/tools/:slug',
+      name: 'ToolDetail',
+      component: ToolDetail,
+      props: true
+    }
+  ]
+})
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')

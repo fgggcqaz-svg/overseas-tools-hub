@@ -4,7 +4,7 @@
     <header class="bg-white shadow-sm sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div class="flex items-center justify-between">
-          <div class="flex items-center space-x-3">
+          <router-link to="/" class="flex items-center space-x-3">
             <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
               <span class="text-white font-bold text-xl">T</span>
             </div>
@@ -12,9 +12,8 @@
               <h1 class="text-xl font-bold text-gray-900">工具推荐站</h1>
               <p class="text-sm text-gray-500">发现海外优质工具</p>
             </div>
-          </div>
+          </router-link>
           
-          <!-- Search -->
           <div class="flex-1 max-w-md mx-8">
             <input 
               v-model="searchQuery"
@@ -95,7 +94,7 @@
           v-for="tool in filteredTools" 
           :key="tool.id"
           class="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden cursor-pointer animate-fade-in"
-          @click="openTool(tool)"
+          @click="goToTool(tool)"
         >
           <div class="p-6">
             <div class="flex items-start justify-between mb-4">
@@ -142,10 +141,12 @@
 
 <script>
 import { ref, computed, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 
 export default {
   name: 'App',
   setup() {
+    const router = useRouter()
     const tools = ref([])
     const loading = ref(true)
     const searchQuery = ref('')
@@ -187,18 +188,7 @@ export default {
         tools.value = data.tools || []
       } catch (error) {
         console.error('Failed to fetch tools:', error)
-        // Use mock data for demo
-        tools.value = [
-          {
-            id: 'magicui',
-            name: 'MagicUI',
-            tagline: 'AI 驱动的 UI 组件生成器',
-            slug: 'magicui',
-            tags: ['AI', '设计工具', '开发者工具'],
-            published_at: new Date().toISOString(),
-            source: 'Product Hunt'
-          }
-        ]
+        tools.value = []
       } finally {
         loading.value = false
       }
@@ -212,8 +202,8 @@ export default {
       })
     }
     
-    const openTool = (tool) => {
-      window.location.href = `/tools/${tool.slug}`
+    const goToTool = (tool) => {
+      router.push(`/tools/${tool.slug}`)
     }
     
     onMounted(() => {
@@ -228,8 +218,25 @@ export default {
       allTags,
       filteredTools,
       formatDate,
-      openTool
+      goToTool
     }
   }
 }
 </script>
+
+<style>
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+</style>
