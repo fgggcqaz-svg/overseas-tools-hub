@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": "curflow-2026",
+      "name": "Curflow",
+      "tagline": "Draw a gesture for your Mac to execute",
+      "description": "Draw a gesture for your Mac to execute. A revolutionary way to control your Mac with custom gestures. Simply draw on your trackpad to trigger actions, launch apps, and automate workflows.",
+      "url": "https://www.producthunt.com/products/curflow",
+      "source": "Product Hunt",
+      "topics": ["Mac", "Productivity", "Automation"],
+      "website_url": "https://curflow.app",
+      "thumbnail_url": null,
+      "published_at": "2026-04-27T18:17:20.000Z"
+    },
+    {
+      "id": "koan-2026",
+      "name": "Kōan",
+      "tagline": "See your AI agents think. Reasoning, tool calls & decisions",
+      "description": "Kōan is an observability platform for AI agents. Visualize your agent's reasoning process, tool calls, and decision trees in real-time. Perfect for debugging and optimizing AI agent workflows.",
+      "url": "https://www.producthunt.com/products/koan-agentic-observability-platform",
+      "source": "Product Hunt",
+      "topics": ["AI", "Developer Tools", "Debugging"],
+      "website_url": "https://koan.ai",
+      "thumbnail_url": null,
+      "published_at": "2026-04-27T10:34:38.000Z"
+    },
+    {
+      "id": "social-fetch-2026",
+      "name": "Social Fetch",
+      "tagline": "Pull real-time data from any social platform via API",
+      "description": "Social Fetch provides a unified API to pull real-time data from any social platform. Get posts, comments, analytics, and trends from Twitter, Instagram, TikTok, and more with a single API call.",
+      "url": "https://www.producthunt.com/products/social-fetch",
+      "source": "Product Hunt",
+      "topics": ["API", "Social Media", "Analytics"],
+      "website_url": "https://socialfetch.com",
+      "thumbnail_url": null,
+      "published_at": "2026-04-22T07:55:12.000Z"
+    },
+    {
+      "id": "devin-terminal-2026",
+      "name": "Devin for Terminal",
+      "tagline": "A CLI agent that keeps working when you close your laptop",
+      "description": "Devin for Terminal is a command-line AI agent that continues working in the background even when you close your laptop. Perfect for long-running tasks, code generation, and automated workflows.",
+      "url": "https://www.producthunt.com/products/devin-1-2-by-cognition",
+      "source": "Product Hunt",
+      "topics": ["AI", "CLI", "Developer Tools"],
+      "website_url": "https://devin.ai",
+      "thumbnail_url": null,
+      "published_at": "2026-04-27T21:38:47.000Z"
+    },
+    {
+      "id": "simcam-2026",
+      "name": "SimCam",
+      "tagline": "Test camera features directly in the iOS simulator",
+      "description": "SimCam allows developers to test camera features directly in the iOS simulator. Simulate different lighting conditions, camera angles, and AR scenarios without needing physical devices.",
+      "url": "https://www.producthunt.com/products/simcam-2",
+      "source": "Product Hunt",
+      "topics": ["iOS", "Developer Tools", "Testing"],
+      "website_url": "https://simcam.dev",
+      "thumbnail_url": null,
+      "published_at": "2026-04-27T09:19:07.000Z"
+    }
+  ],
+  "fetched_at": "2026-04-28T15:01:50.550Z",
+  "sources": ["Product Hunt RSS"]
+}
