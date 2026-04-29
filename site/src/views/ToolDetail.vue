@@ -66,6 +66,24 @@
             </svg>
           </a>
         </div>
+        
+        <!-- 支持作者 -->
+        <div class="mt-6 pt-6 border-t border-gray-200">
+          <h3 class="text-lg font-bold text-gray-900 mb-2">支持作者</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            如果您觉得这个AI工具推荐对您有帮助，欢迎支持作者，支持本站持续运营！
+          </p>
+          <div class="bg-gray-50 rounded-lg p-6 text-center">
+            <img 
+              src="/alipay-qr.png" 
+              alt="Alipay QR Code" 
+              class="mx-auto mb-4"
+              style="max-width: 200px;"
+            />
+            <p class="text-sm text-gray-600 mb-2">支持 AlipayHK / 转数快 FPS</p>
+            <p class="text-sm text-gray-700 font-medium">FPS ID: [在此输入你的FPS ID]</p>
+          </div>
+        </div>
       </article>
 
       <!-- Loading -->
